@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="72x72" href="../apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="manifest" href="../site.webmanifest">
+    <link rel="mask-icon" href="../safari-pinned-tab.svg" color="#536dfe">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" type="text/css" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>UOW Buy & Sell | Aleksander Derevnin</title>
+</head>
+<body>
+<div class="wrapper-page">
+    <!--
+  -- ─── NAVIGATION ─────────────────────────────────────────────────────────────────
+  -->
+    <div class="nav-bar">
+        <div id="nav-container">
+            <a href="../index.html"><img class="logo" src="../images/Logo.png"></a>
+            <ul class="links">
+                <li><a href="../index.html#projects">Projects</a></li>
+                <li><a href="../photography.html">Photography</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--
+  -- ─── INTRO SECTION ──────────────────────────────────────────────────────────────
+  -->
+    <div class="intro">
+        <h1>A web design focusing on <a>usability</a> and <a>functionality</a>.</h1>
+        <p id="text-left">A complete web design of a FaceBook group called UOW Buy & Sell. The design showcases the possible solution to creating an ‘all in one’ marketplace for Wollongong. This includes how the website and its notification system will work on various devices.
+        </p>
+        <p id="text-right">2018<br>Branding<br>Web Design<br>UI Design</p>
+    </div>
+    <!--
+  -- ─── PROJECT SECTION ────────────────────────────────────────────────────────────
+  -->
+    <div class="container-info">
+        <img src="../images/projects/uow_devices.jpg" alt="uow devices">
+        <img src="../images/projects/uow_notification.jpg" alt="uow notification">
+        <img src="../images/projects/uow_laptop.jpg" alt="uow laptop">
+        <img src="../images/projects/uow_android.jpg" alt="uow android">
+        <img src="../images/projects/uow_iphonex.jpg" alt="uow iphonex">
+        <img src="../images/projects/uow_iphone6.jpg" alt="uow iphone6">
+    </div>
+    <!--
+  -- ─── CONTACT SECTION ────────────────────────────────────────────────────────────
+  -->
+    <div class="contact">
+        <h1 id="contact">Let's have a<a href="mailto:alekderevnin@gmail.com" target="_blank"> chat!</a></h1>
+        <p>Ask me questions about anything. Whether it's design, photography or myself, I'm all ears.<br><br><a href="mailto:alekderevnin@gmail.com"
+                target="_blank" class="contact-text">alekderevnin@gmail.com</a></p>
+    </div>
+    <!--
+  -- ─── FOOTER SECTION ─────────────────────────────────────────────────────────────
+  -->
+    <div class="footer">
+        <div id="footer-container">
+            <ul class="socials">
+                <li><a href="https://www.instagram.com/aleksanderevnin/" target="_blank">Instagram</a></li>
+                <li><a href="https://dribbble.com/aleksander_d" target="_blank">Dribbble</a></li>
+                <li><a href="mailto:alekderevnin@gmail.com" target="_blank">Email</a></li>
+            </ul>
+            <p class="copyright">Created by Aleksander Derevnin &copy; 2019</p>
+        </div>
+    </div>
+</div>
+<!--
+  -- ─── BACK TO TOP BUTTON ─────────────────────────────────────────────────────────
+  -->
+<a href="#" id="scroll" style="display: none;"><span></span></a>
+<script>
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('#scroll').fadeIn();
+            } else {
+                $('#scroll').fadeOut();
+            }
+        });
+        $('#scroll').click(function () {
+            $("html, body").animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
+    });
+</script>
+<!--
+  -- ─── SMOOTH SCROLL ──────────────────────────────────────────────────────────────
+  -->
+<script>
+    $(document).ready(function () {
+        $('a[href*=\\#contact]').on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: $(this.hash).offset().top
+            }, 800);
+        });
+    });
+</script>
+</body>
+</html>
