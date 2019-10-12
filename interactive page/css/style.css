@@ -1,0 +1,25 @@
+html, body {
+  font-size: 62.5%;
+  height: 100%;
+  overflow: hidden;
+  background: #000000;
+}
+
+.background {
+  position: relative;
+  height: 100%;
+  background: #000000;
+  padding: 20rem;
+  text-align: center;
+  background: url("./img/noreveal.png") 50% 50% no-repeat fixed;
+}
+
+.reveal {
+  z-index: 5;
+  position: absolute;
+  top: calc(50% - 10rem);
+  left: calc(50% - 10rem);
+  width: 30rem;
+  height: 30rem;
+  background: url("./img/reveal.png") 50% 50% no-repeat fixed;
+}
