@@ -1,173 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#536dfe">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" type="text/css" href="styles/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#536dfe" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Karla:400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700"
+      rel="stylesheet"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Aleksander Derevnin | Portfolio</title>
-</head>
-<body>
-<div class="wrapper-page">
-<!--
+  </head>
+  <body>
+    <div class="wrapper-page">
+      <!--
   -- ─── NAVIGATION ─────────────────────────────────────────────────────────────────
   -->
-    <div class="nav-bar">
+      <div class="nav-bar">
         <div id="nav-container">
-            <a href="index.html"><img class="logo" src="images/logo.svg"></a>
-            <ul class="links">
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="photography.html">Photography</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+          <a href="index.html"><img class="logo" src="images/logo.svg" /></a>
+          <ul class="links">
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="photography.html">Photography</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </div>
-    </div>
-<!--
+      </div>
+      <!--
   -- ─── INTRO SECTION ──────────────────────────────────────────────────────────────
   -->
-    <div class="intro">
-        <h1>Hello. I'm Aleksander.<br>I'm a <a href="#projects">designer</a> who also enjoys <a href="photography.html">photography</a>.</h1>
-        <p>I primarily spend my time on branding, editorial design, typography, logo design, photography, web design
-            and HTML/CSS. However, I am still eager to challenge myself and take new opportunities that will further
-            develop my knowledge and skills as a designer.</p>
+      <div class="intro">
+        <h1>
+          <span id="blue">Aleksander Derevnin.</span><br>A junior graphic designer that enjoys a bit of everything. <span style="font-style: italic; font-size: 18px; font-weight: 600;">Literally.</span>
+        </h1>
+        <p>
+          A lot graphic design, a bit of digital design, a bit of coding, a bit of photography and a bit of videography.<span style="font-style: italic;"> Almost</span> a bit of everything &#128516;
+        </p>
+      </div>
     </div>
-<!--
+    <!--
   -- ─── PROJECT SECTION ────────────────────────────────────────────────────────────
   -->
-    <div id="projects" class="container-projects">
+    <div class="nogap">
+      <div id="projects" class="container-projects">
         <div class="project">
-            <video autoplay loop muted playsinline poster="images/img_ih.jpg">
-                <source src="images/vid_ih.webm" type="video/webm">
-                    <source src="images/vid_ih.mp4" type="video/mp4">
-            </video>
-            <a href="project/inspire-healthcare.html">
-                <div class="project-layer_top">
-                    <div class="project-text">Inspire Healthcare<br><span id="year">Branding, Animation</span></div>
-                </div>
-            </a>
+          <video autoplay loop muted playsinline poster="images/img_ih.jpg">
+            <source src="images/vid_ih.webm" type="video/webm" />
+            <source src="images/vid_ih.mp4" type="video/mp4" />
+          </video>
+          <a href="project/inspire-healthcare.html">
+            <div class="project-layer_top">
+              <div class="project-text">
+                Inspire Healthcare<br /><span id="year"
+                  >Branding, Animation &mdash; 2018</span
+                >
+              </div>
+            </div>
+          </a>
         </div>
         <div class="project">
-            <img src="images/img_typeface.jpg" alt="project typeface" class="project-layer_bottom">
-            <a href="project/manchuria.html">
-                <div class="project-layer_top">
-                    <div class="project-text">Manchuria<br><span id="year">Typography, Editorial Design, Interactive
-                            Webpage</span></div>
-                </div>
-            </a>
+          <img
+            src="images/img_typeface.jpg"
+            alt="project typeface"
+            class="project-layer_bottom"
+          />
+          <a href="project/manchuria.html">
+            <div class="project-layer_top">
+              <div class="project-text">
+                Manchuria<br /><span id="year"
+                  >Typography, Editorial Design, Interactive Webpage &mdash; 2018</span
+                >
+              </div>
+            </div>
+          </a>
         </div>
         <div class="project">
-            <img src="images/img_mm.jpg" alt="project mm" class="project-layer_bottom">
-            <a href="project/marina-matti.html">
-                <div class="project-layer_top">
-                    <div class="project-text">Marina Matti<br><span id="year">Branding</span></div>
-                </div>
-            </a>
+          <img
+            src="images/img_gist.jpg"
+            alt="project gist"
+            class="project-layer_bottom"
+          />
+          <a href="project/gist.html">
+            <div class="project-layer_top">
+              <div class="project-text">
+                GIST<br /><span id="year">Branding, Web Design &mdash; 2018</span>
+              </div>
+            </div>
+          </a>
         </div>
         <div class="project">
-            <img src="images/img_gist.jpg" alt="project gist" class="project-layer_bottom">
-            <a href="project/gist.html">
-                <div class="project-layer_top">
-                    <div class="project-text">GIST<br><span id="year">Branding, Web Design</span></div>
-                </div>
-            </a>
+          <img
+            src="images/img_uow.jpg"
+            alt="project uow"
+            class="project-layer_bottom"
+          />
+          <a href="project/uow-buy-and-sell.html">
+            <div class="project-layer_top">
+              <div class="project-text">
+                UOW Buy & Sell<br /><span id="year"
+                  >Branding, Web Design, UI Design &mdash; 2018</span
+                >
+              </div>
+            </div>
+          </a>
         </div>
-        <div class="project">
-            <img src="images/img_uow.jpg" alt="project uow" class="project-layer_bottom">
-            <a href="project/uow-buy-and-sell.html">
-                <div class="project-layer_top">
-                    <div class="project-text">UOW Buy & Sell<br><span id="year">Branding, Web Design, UI Design</span></div>
-                </div>
-            </a>
-        </div>
-        <div class="project">
-            <img src="images/img_mk.jpg" alt="project mkg" class="project-layer_bottom">
-            <a href="project/mk-building-group.html">
-                <div class="project-layer_top">
-                    <div class="project-text">MK Building Group Pty Ltd<br><span id="year">Branding</span></div>
-                </div>
-            </a>
-        </div>
-        <div class="project">
-            <img src="images/img_pp.jpg" alt="project pp" class="project-layer_bottom">
-            <a href="project/pro-painters.html">
-                <div class="project-layer_top">
-                    <div class="project-text">Pro Painters<br><span id="year">Branding</span></div>
-                </div>
-            </a>
-        </div>
-        <div class="project">
-            <img src="images/img_choice.jpg" alt="project choice" class="project-layer_bottom">
-            <a href="project/choice.html">
-                <div class="project-layer_top">
-                    <div class="project-text">Choice Magazine<br><span id="year">Editorial Design, Photography</span></div>
-                </div>
-            </a>
-        </div>
+      </div>
     </div>
-<!--
+
+    <div class="wrapper-page">
+      <!--
   -- ─── CONTACT SECTION ────────────────────────────────────────────────────────────
   -->
-    <div class="contact">
-        <h1 id="contact">Let's have a<a href="mailto:alekderevnin@gmail.com" target="_blank"> chat!</a></h1>
-        <p>Ask me questions about anything. Whether it's design, photography or myself, I'm all ears.<br><br><a href="mailto:alekderevnin@gmail.com"
-                target="_blank">alekderevnin@gmail.com</a></p>
-    </div>
-<!--
+      <div class="contact">
+        <h1 id="contact">
+          Let's have a<a href="mailto:alekderevnin@gmail.com" target="_blank">
+            chat!</a
+          >
+        </h1>
+        <p>
+          Ask me questions about anything. Whether it's design, photography or
+          myself, I'm all ears.<br /><br /><a
+            href="mailto:alekderevnin@gmail.com"
+            target="_blank"
+            >alekderevnin@gmail.com</a
+          >
+        </p>
+      </div>
+      <!--
   -- ─── FOOTER SECTION ─────────────────────────────────────────────────────────────
   -->
-    <div class="footer">
+      <div class="footer">
         <div id="footer-container">
-            <ul class="socials">
-                <li><a href="https://www.instagram.com/aleksanderevnin/" target="_blank">Instagram</a></li>
-                <li><a href="https://dribbble.com/aleksander_d" target="_blank">Dribbble</a></li>
-                <li><a href="mailto:alekderevnin@gmail.com" target="_blank">Email</a></li>
-            </ul>
-            <p class="copyright">Created by Aleksander Derevnin &copy; 2019</p>
+          <ul class="socials">
+            <li>
+              <a
+                href="https://www.instagram.com/aleksanderevnin/"
+                target="_blank"
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <a href="mailto:alekderevnin@gmail.com" target="_blank">Email</a>
+            </li>
+          </ul>
+          <p class="copyright">Created by Aleksander Derevnin &copy; 2020</p>
         </div>
+      </div>
     </div>
-</div>
-<!--
+    <!--
   -- ─── BACK TO TOP BUTTON ─────────────────────────────────────────────────────────
   -->
-<a href="#" id="scroll" style="display: none;"><span></span></a>
-<script>
-    $(document).ready(function () {
+    <a href="#" id="scroll" style="display: none"><span></span></a>
+    <script>
+      $(document).ready(function () {
         $(window).scroll(function () {
-            if ($(this).scrollTop() > 100) {
-                $('#scroll').fadeIn();
-            } else {
-                $('#scroll').fadeOut();
-            }
+          if ($(this).scrollTop() > 100) {
+            $("#scroll").fadeIn();
+          } else {
+            $("#scroll").fadeOut();
+          }
         });
-        $('#scroll').click(function () {
-            $("html, body").animate({
-                scrollTop: 0
-            }, 800);
-            return false;
+        $("#scroll").click(function () {
+          $("html, body").animate(
+            {
+              scrollTop: 0,
+            },
+            800
+          );
+          return false;
         });
-    });
-</script>
-<!--
+      });
+    </script>
+    <!--
   -- ─── SMOOTH SCROLL ──────────────────────────────────────────────────────────────
   -->
-<script>
-    $(document).ready(function () {
-        $('a[href*=\\#]').on('click', function (e) {
-            e.preventDefault();
-            $('html, body').animate({
-                scrollTop: $(this.hash).offset().top
-            }, 800);
+    <script>
+      $(document).ready(function () {
+        $("a[href*=\\#]").on("click", function (e) {
+          e.preventDefault();
+          $("html, body").animate(
+            {
+              scrollTop: $(this.hash).offset().top,
+            },
+            800
+          );
         });
-    });
-</script>
-</body>
+      });
+    </script>
+  </body>
 </html>
