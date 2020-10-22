@@ -135,10 +135,13 @@ a:hover {
  */
 .container-projects {
   padding-top: 75px;
+  max-width: 100%;
 }
+
 .project,
 .project * {
   box-sizing: border-box;
+  width: 100%;
 }
 .nogap {
   font-size: 0;
