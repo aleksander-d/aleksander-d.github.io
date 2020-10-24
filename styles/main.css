@@ -36,6 +36,7 @@ p {
   font-size: 19px;
   font-weight: 400;
   line-height: 1.6;
+  letter-spacing: -0.5px;
   color: #616161;
 }
 a {
@@ -44,7 +45,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #8c9eff;
+  opacity: 0.8;
 }
 .wrapper-page {
   width: 65%;
@@ -112,7 +113,7 @@ a:hover {
   margin-left: 30px;
 }
 .nav-bar li a:hover {
-  color: #8c9eff;
+  opacity: 0.8;
 }
 /*
  * ─── INTRO SECTION ──────────────────────────────────────────────────────────────
@@ -361,7 +362,7 @@ a:hover {
   margin-right: 30px;
 }
 .footer li a:hover {
-  color: #8c9eff;
+  opacity: 0.8;
 }
 /*
  * ─── BACK TO TOP BUTTON ─────────────────────────────────────────────────────────
